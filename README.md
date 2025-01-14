@@ -1,50 +1,33 @@
-# React + TypeScript + Vite
+# 🌐 Multi-Page Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a seven page website designed for a fictional Designo company to showcase responsive design and user interactivity.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌟 Core Features
 
-## Expanding the ESLint configuration
+- **📱 Responsive Design**:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  - View an optimal layout for each page on any device, ensuring a seamless user experience across different screen sizes.
 
-- Configure the top-level `parserOptions` property like this:
+- **🖱️ Interactive Elements**:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+  - See hover states for all interactive elements, enhancing the look and feel of the website.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **📩 Contact Form Validation**:
+  - Receive error messages when submitting the contact form if:
+    - The **Name**, **Email Address**, or **Your Message** fields are empty:
+      - Error message: `"Can't be empty"`
+    - The **Email Address** is not formatted correctly:
+      - Error message: `"Please use a valid email address"`
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### 🎥 Cool Animations
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Framer Motion Integration**:
+  - Used Framer Motion to create smooth and engaging animations, making interactions more visually appealing for users.
+
+## 🛠️ Tools and Technologies
+
+- **Frontend**: React, Typescript
+- **Styling**: Tailwind CSS.
+- **Animations**: Framer Motion for smooth animations.
