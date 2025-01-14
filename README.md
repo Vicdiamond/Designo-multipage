@@ -31,3 +31,7 @@ This project is a seven page website designed for a fictional Designo company to
 - **Frontend**: React, Typescript
 - **Styling**: Tailwind CSS.
 - **Animations**: Framer Motion for smooth animations.
+
+## Link
+
+- **Live Site**: http://venny-designo.netlify.app
